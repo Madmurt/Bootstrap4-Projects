@@ -27,3 +27,38 @@ body {
         height: 100%;
     }
 }
+
+.info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #dddddd;
+}
+
+#authors {
+    img {
+        margin-top: -50px;
+    }
+    .fa {
+        font-size: 25px
+    }
+    .card:hover {
+        background: $primary;
+        color: #ffffff;
+        .fa {
+            color: #ffffff;
+        }
+    }
+}
+
+#main-footer {
+    height: 300px;
+    a {
+        color: #ffffff;
+    }
+}
+
+@media(max-width:576px) {
+    nav .container {
+        width: 100%
+    }
+}
